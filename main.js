@@ -1,5 +1,11 @@
 function preload() {
 	world_start = loadSound("world_start.wav");
+	jump = loadSound("jump.wav");
+	coin = loadSound("coin.wav");
+	gameover = loadSound("gameover.wav");
+	kill_enemy = loadSound("kick.wav");
+	died = loadSound("mariodie.wav");
+
 	setSprites();
 	MarioAnimation();
 }
